@@ -1,6 +1,6 @@
 {
   "name": "@teqniqly/azure-http-api-builder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A builder pattern for handling requests to Azure HTTP trigger functions.",
   "scripts": {
     "test": "node_modules/.bin/mocha --watch-extensions ts --watch -r ts-node/register test/**/*.spec.ts",
@@ -8,13 +8,13 @@
     "lint": "tslint **/*.ts --fix --exclude **/node_modules/**/* --format stylish",
     "build": "tsc --build tsconfig.json"
   },
-  "homepage": "https://github.com/teqniqly/azure-http-api-builder#readme",
+  "homepage": "https://github.com/farooq-teqniqly/azure-http-api-builder#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/teqniqly/azure-http-api-builder.git"
+    "url": "git+https://github.com/farooq-teqniqly/azure-http-api-builder.git"
   },
   "bugs": {
-    "url": "https://github.com/teqniqly/azure-http-api-builder/issues"
+    "url": "https://github.com/farooq-teqniqly/azure-http-api-builder/issues"
   },
   "author": "Teqniqly",
   "license": "MIT",
