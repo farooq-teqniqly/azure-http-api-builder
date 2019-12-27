@@ -1,6 +1,7 @@
 {
   "name": "@teqniqly/azure-http-api-builder",
   "version": "1.0.3",
+  "keywords": ["azure", "function", "http", "trigger", "build"],
   "description": "A builder pattern for handling requests to Azure HTTP trigger functions.",
   "scripts": {
     "test": "node_modules/.bin/mocha --watch-extensions ts --watch -r ts-node/register test/**/*.spec.ts",
