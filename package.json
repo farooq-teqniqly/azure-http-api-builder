@@ -1,6 +1,6 @@
 {
   "name": "@teqniqly/azure-http-api-builder",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "keywords": ["azure", "function", "http", "trigger", "build"],
   "description": "A builder pattern for handling requests to Azure HTTP trigger functions.",
   "scripts": {
