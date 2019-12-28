@@ -1,10 +1,11 @@
 const Api = require('../../dist/api').Api;
-const GetRequestHandler = require('./handlers/get-request-handler');
-const PostRequestHandler = require('./handlers/post-request-handler');
-const PutRequestHandler = require('./handlers/put-request-handler');
-const DeleteRequestHandler = require('./handlers/delete-request-handler');
+const {
+    GetRequestHandler, 
+    PostRequestHandler, 
+    PutRequestHandler, 
+    DeleteRequestHandler} = require('./handlers');
 
-module.exports = async function (context, req) {
+module.exports = function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
 
     new Api()

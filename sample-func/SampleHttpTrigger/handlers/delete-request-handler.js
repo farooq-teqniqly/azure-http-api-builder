@@ -5,6 +5,8 @@ class DeleteRequestHandler {
     context.res = {
       status: 204
     };
+
+    context.done();
   }
 }
 

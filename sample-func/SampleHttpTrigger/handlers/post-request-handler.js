@@ -8,6 +8,7 @@ class PostRequestHandler {
         body: "Please pass a name in the body."
       };
 
+      context.done();
       return;
     }
 
@@ -15,6 +16,8 @@ class PostRequestHandler {
       status: 201,
       body: `Hello ${req.body.name}`
     };
+
+    context.done();
   }
 }
 

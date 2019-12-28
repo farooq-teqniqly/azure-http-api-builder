@@ -8,6 +8,7 @@ class GetRequestHandler {
         body: "Please pass a name on the query string."
       };
 
+      context.done();
       return;
     }
 
@@ -15,6 +16,8 @@ class GetRequestHandler {
       status: 200,
       body: `Hello ${req.query.name}`
     };
+
+    context.done();
   }
 }
 

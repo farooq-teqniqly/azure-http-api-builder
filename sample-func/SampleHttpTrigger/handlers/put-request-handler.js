@@ -6,6 +6,8 @@ class PutRequestHandler {
       status: 200,
       body: 'PUT request processed.'
     };
+
+    context.done();
   }
 }
 
